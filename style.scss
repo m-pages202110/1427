@@ -1,10 +1,18 @@
 body {
-  background: linear-gradient(to right bottom, #5dc4cb, #4ad8c6, #60e9b0, #92f78e, #d0ff66)fixed;
+  max-width: 900px;
+  margin: 0 auto;
+  background: linear-gradient(to right bottom, #5dc4cb, #4ad8c6, #60e9b0, #92f78e, #d0ff66) fixed;
 }
 
 h1 {
   font-size: 2rem;
   font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
-  color: pink;
+  color: rgb(211, 176, 182);
+}
+
+img {
+  width: 100px;
+  height: auto;
+  box-shadow: 60px -16px teal;
 }/*# sourceMappingURL=style.css.map */
