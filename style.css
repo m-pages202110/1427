@@ -354,6 +354,7 @@ footer .copyright {
   right: 0;
   z-index: 20;
   background-color: #fff;
+  display: none;
 }
 .menu-list .close {
   z-index: 20;
