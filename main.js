@@ -14,7 +14,7 @@ $(function () {
   //   $("header").toggleClass("search-open");
   // });
 
-  $('#mask').click(function() {
+  $('#mask,#Close').click(function() {
     // openクラスを削除して、メニューを閉じる
     $('body').removeClass('menu-open');
   });
@@ -25,5 +25,23 @@ $(function () {
     reset: false,   // 何回もアニメーション表示するか
     origin: 'bottom',
     distance: '20px'
+  });
+
+  $(function () {
+    var pagetop = $('#page-top');
+    pagetop.hide();
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 500) {
+        pagetop.fadeIn();
+      } else {
+        pagetop.fadeOut();
+      }
+    });
+    pagetop.click(function () {
+      $('body, html').animate({
+          scrollTop: 0
+      }, 500);
+      return false;
+    });
   });
 });
