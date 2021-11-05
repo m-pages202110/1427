@@ -18,29 +18,44 @@
   </head>
   <body>
     <header>
-      <div class="inner flex">
+      <div class="flex">
         <h1 class="logo">
           <img src="img/sofa-logo.png" alt="GOOD FURNITUREロゴ" />
         </h1>
         <ul class="icon flex">
-          <li class="search"><img src="img/icon01g.png" alt="商品検索" /></li>
+          <!-- <li class="search">
+            <form class="search" action="">
+              <input type="search" placeholder="　入力して検索" required>
+              <button type="submit"><img src="img/icon01g.png" alt=""></button>
+            </form>   -->
+            <!-- <img src="img/icon01g.png" alt="商品検索" /> -->
+          </li>
           <li class="cart"><img src="img/icon02g.png" alt="カートを見る" /></li>
           <li class="hamburger"><span></span><span></span><span></span></li>
         </ul>
       </div>
-      <div class="search-form">
-        <form id="form2" action="自分のサイトURL" method="get">
-          <input id="sbox2"  id="s" name="s" type="text" placeholder="フリーワードを入力"/>
-          <button type="submit" id="sbtn2"><i class="fas fa-search"></i></button>
-          </form>
-        <ul class="search-menu">
-          <li><a href="#">商品カテゴリー</a></li>
-          <li><a href="#">新入荷アイテム</a></li>
-          <li><a href="#">週間ランキング</a></li>
-          <li><a href="#">コーディネート相談</a></li>
-          <li><a href="#">法人・団体様お見積り</a></li>
-        </ul>
+      <div id="mask">
+        <div class="menu-list">
+          <p class="close">CLOSE</p>
+          <ul class="search-menu">
+            <li><a href="#">商品カテゴリー</a></li>
+            <li><a href="#">新入荷アイテム</a></li>
+            <li><a href="#">週間ランキング</a></li>
+            <li><a href="#">コーディネート相談</a></li>
+            <li><a href="#">法人・団体様お見積り</a></li>
+            <li class="menu-form">
+              <form class="search" action="">
+                <input type="search" placeholder="　入力して検索" required>
+                <button type="submit"><img src="img/icon01g.png" alt=""></button>
+              </form>  
+            </li>
+            <li class="menu-logo">
+              <img src="img/sofa-logo.png" alt="">
+            </li>
+          </ul>
+          
         </div>
+      </div>
     </header>
     <main>
       <div class="single-item">
@@ -49,7 +64,7 @@
         <div><img src="img/main03-400.jpg" width="400" height="300"></div>
     </div>
   <div class="inner">
-    <section class="category">
+    <section class="category row">
       <div class="title">
       <h2 class="section-title">Featured Category</h2>
       <h2 class="subtitle">カテゴリ</h2>
@@ -64,7 +79,7 @@
         <a href="#">more</a>
       </div>
     </section>
-    <section class="campaign">
+    <section class="campaign row">
       <div class="title">
       <h2 class="section-title">Campaign</h2>
       <h2 class="subtitle">キャンペーン</h2>
@@ -74,7 +89,7 @@
         <li><a href="#"><img src="img/bana03.jpg" alt="無料コーディネート相談キャンペーン"></a></li>
       </ul>
     </section>
-    <section class="new">
+    <section class="new row">
       <div class="title">
       <h2 class="section-title">New Item</h2>
       <h2 class="subtitle">新入荷アイテム</h2>
@@ -85,13 +100,14 @@
         <li><a href="#"><img src="img/chair.jpg" alt="1人掛けチェア"></a></li>
         <li><a href="#"><img src="img/shelf.jpg" alt="オープンシェルフ"></a></li>
         <li><a href="#"><img src="img/console.jpg" alt="サイドチェストコンソール"></a></li>
+        <li><a href="#"><img src="img/right.jpg" alt="照明2"></a></li>
       </ul>
       <div class="btn">
         <a href="#">more</a>
       </div>
       </section>
       </div>
-      <section class="instagram">
+      <section class="instagram row">
         <div class="title">
         <h2 class="section-title">Instagram</h2>
         <h2 class="subtitle">公式インスタグラム</h2>
@@ -102,10 +118,11 @@
           <li><a href="#"><img src="img/insta03.jpg" alt=""></a></li>
           <li><a href="#"><img src="img/insta04.jpg" alt=""></a></li>
           <li><a href="#"><img src="img/insta05.jpg" alt=""></a></li>
+          <li><a href="#"><img src="img/insta06.jpg" alt=""></a></li>
         </ul>
       </section>
       <div class="inner">
-      <section class="coordinate">
+      <section class="coordinate row">
         <div class="title">
         <h2 class="section-title">Coordination</h2>
         <h2 class="subtitle">コーディネート</h2>
@@ -158,6 +175,8 @@
     </footer>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <script src="main.js"></script>
 
   </body>
