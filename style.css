@@ -263,6 +263,11 @@ input::-ms-clear {
   z-index: 20;
 }
 
+.max-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .slick-prev {
   left: 10px;
   z-index: 10;
@@ -303,7 +308,25 @@ input::-ms-clear {
   justify-content: space-between;
   flex-flow: nowrap;
 }
+.instagram li {
+  position: relative;
+}
 .instagram li:last-child {
+  display: none;
+}
+.instagram li:hover .instatext {
+  display: block;
+}
+.instagram .instatext {
+  font-size: 0.8rem;
+  font-weight: 300;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1a19195d;
+  padding: 20px 10px;
+  color: #fff;
   display: none;
 }
 
@@ -486,6 +509,11 @@ footer .copyright {
     margin-bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  .new .item,
+.category .item {
+    margin-bottom: 30px;
   }
 
   footer {
