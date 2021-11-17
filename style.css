@@ -398,7 +398,8 @@ footer .btn:hover {
 
   h2 {
     font-size: 2em;
-    transform: none;
+    transform: translateY(0);
+    margin-right: 0;
     text-align: center;
   }
 
