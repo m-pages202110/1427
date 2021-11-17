@@ -1,3 +1,5 @@
+
+// GF
 $(function () {
   $('.single-item').slick({
       accessibility: true,
@@ -45,3 +47,5 @@ $(function () {
     });
   });
 });
+// GF END
+
