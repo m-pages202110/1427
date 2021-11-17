@@ -464,10 +464,6 @@ footer .btn:hover {
   .product3 .image img {
     padding: 14px;
   }
-  .product3 .link {
-    margin-top: 28px;
-    display: inline-block;
-  }
   .product3 .bg {
     transform: scale(0.6) translate(406px, 422px) rotate(53deg);
   }
