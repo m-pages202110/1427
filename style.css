@@ -545,10 +545,15 @@ footer .copyright {
     display: flex;
     flex-flow: nowrap;
   }
+  footer .mail .description,
+  footer .mail .mail-form{
+    border-bottom: none !important;
+  }
   footer .mail-form .box {
     width: 70%;
     margin-right: 10px;
   }
+
   footer .copyright {
     margin-top: 20px;
   }
