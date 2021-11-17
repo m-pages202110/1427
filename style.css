@@ -72,6 +72,9 @@ header h1 {
   margin: 0 auto 30px auto;
   position: relative;
 }
+.mainvisual .sp {
+  display: none;
+}
 .mainvisual p {
   font-size: 3.6em;
   font-weight: 400;
@@ -391,16 +394,23 @@ footer .btn:hover {
     font-size: 14px;
   }
 
+  .mainvisual .pc {
+    display: none;
+  }
+  .mainvisual .sp {
+    display: block;
+  }
   .mainvisual p {
-    font-size: 2em;
+    font-size: 3em;
     padding-left: 8px;
+    top: 28%;
   }
 
   h2 {
     font-size: 2em;
+    text-align: center;
     transform: translateY(0);
     margin-right: 0;
-    text-align: center;
   }
 
   .box {
@@ -466,7 +476,7 @@ footer .btn:hover {
     padding: 14px;
   }
   .product3 .bg {
-    transform: scale(0.6) translate(406px, 422px) rotate(53deg);
+    transform: scale(0.6) translate(501px, 272px) rotate(53deg);
   }
   .product3 .bg2 {
     transform: scale(0.8) translate(-63px, 77px);
@@ -482,6 +492,8 @@ footer .btn:hover {
     width: 100%;
     margin-top: 40px;
     border-right: none;
+    padding: 0 40px;
+    gap: 35px;
   }
   .about .about-text {
     width: 100%;
