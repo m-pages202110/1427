@@ -486,6 +486,7 @@ footer .btn:hover {
   .about .about-text {
     width: 100%;
     padding: 10% 5%;
+    font-size: 1.2em;
   }
 
   footer .flex p {
