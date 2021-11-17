@@ -1,0 +1,504 @@
+html {
+  font-size: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  color: #352D2D;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+}
+
+a:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.wrap {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 20px 0 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.link {
+  display: inline;
+}
+
+.description {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  font-size: 1em;
+}
+
+header {
+  border-bottom: solid 1px #C3C2C2;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+header .logo {
+  flex-flow: nowrap;
+  justify-content: center;
+}
+header img {
+  width: 50px;
+}
+header h1 {
+  font-weight: 300;
+  line-height: 50px;
+  font-size: 28px;
+  margin-left: 10px;
+}
+
+#page-top img {
+  transform: rotate(-90deg);
+  opacity: 0.5;
+  width: 30px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 20;
+}
+
+.mainvisual {
+  margin: 0 auto 30px auto;
+  position: relative;
+}
+.mainvisual p {
+  font-size: 3.6em;
+  font-weight: 400;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  -webkit-animation: fontanime 2s ease;
+          animation: fontanime 2s ease;
+}
+
+@-webkit-keyframes fontanime {
+  0% {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fontanime {
+  0% {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+hr {
+  max-width: 1300px;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: #C3C2C2;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: right;
+  margin-right: -22px;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to right, #b89090 0%, #876a48 14.28%, #b5b5a6 28.56%, #7c6d77 42.85%, #987e86 57.14%, rgba(101, 101, 108, 0.541) 71.42%, #796279 85.71%, rgba(116, 55, 55, 0.363) 100%) 0% center/200% auto;
+  font-size: 12em;
+  font-weight: 700;
+  transform: translateY(-50px);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: example 20s ease forwards;
+          animation: example 20s ease forwards;
+}
+
+@-webkit-keyframes example {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: right;
+  }
+}
+
+@keyframes example {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: right;
+  }
+}
+.puroduct {
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+
+.box {
+  position: relative;
+  margin-bottom: 80px;
+  box-sizing: border-box;
+}
+.box .no {
+  width: 10%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-right: 20px;
+}
+.box ul {
+  padding-top: 60px;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 460px;
+}
+.box li {
+  width: 45%;
+}
+.box li:first-child {
+  margin-left: 10%;
+}
+.box .text {
+  max-width: 400px;
+}
+
+.product3 .title {
+  margin-bottom: 0;
+  text-align: center;
+}
+.product3 a {
+  display: block;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 8px 0 40px 0;
+}
+.product3 a img {
+  width: 14px;
+  margin-left: 10px;
+}
+.product3 .bg {
+  width: 1000px;
+  height: 800px;
+  background-image: url(pf-img/beige.png);
+  background-size: 1000px 800px;
+  position: absolute;
+  top: 20px;
+  right: -26px;
+  opacity: 0.4;
+  transform: rotate(18deg);
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.product3 .bg2 {
+  width: 600px;
+  height: 500px;
+  position: absolute;
+  background-size: 600px 500px;
+  background-image: url(pf-img/graybeige.png);
+  transform: rotate(15deg) translate(-19px, 110px);
+  top: 81px;
+  right: -112px;
+  z-index: -1;
+}
+
+.product1 .image img {
+  padding: 40px;
+}
+.product1 .bg {
+  width: 800px;
+  height: 800px;
+  background-image: url(pf-img/beige.png);
+  background-size: 800px 600px;
+  position: absolute;
+  top: 81px;
+  right: -112px;
+  opacity: 0.5;
+  transform: rotate(4deg);
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.product2 .bg {
+  width: 800px;
+  height: 800px;
+  background-image: url(pf-img/graybeige.png);
+  background-size: 800px 600px;
+  position: absolute;
+  top: -44px;
+  left: -98px;
+  opacity: 0.8;
+  transform: rotate(53deg);
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.product2 .bg2 {
+  width: 475px;
+  height: 400px;
+  background-image: url(pf-img/rame.png);
+  background-size: 563px 500px;
+  position: absolute;
+  top: 73px;
+  left: 317px;
+  opacity: 0.4;
+  transform: rotate(36deg);
+  z-index: -1;
+}
+
+.about {
+  font-size: 0.8em;
+  background-color: #EFEBEA;
+  padding: 80px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .skils {
+  width: 50%;
+  padding: 0 10% 0 24%;
+  flex-flow: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  border-right: solid 1px #BBBBBB;
+}
+.about .skils img {
+  width: 40px;
+  height: 40px;
+  opacity: 0.8;
+}
+.about .skils img:nth-child(n+5) {
+  margin-bottom: 0;
+}
+.about .skils .dark {
+  opacity: 0.6;
+}
+.about .about-text {
+  width: 50%;
+  text-align: center;
+  padding-left: 40px;
+  max-width: 500px;
+}
+
+footer {
+  font-size: 0.8em;
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+footer .flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .flex p {
+  max-width: 700px;
+  text-align: center;
+  margin-right: 40px;
+}
+footer .btn {
+  all: unset;
+  font-family: Helvetica, Arial, sans-serif;
+  display: inline-block;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #c7c1c4;
+  color: #616161;
+  font-size: 18px;
+  border-radius: 22px;
+  padding: 0 30px;
+  font-weight: 400;
+  height: 45px;
+  cursor: pointer;
+  line-height: 45px;
+  text-align: center;
+  margin: 0;
+  text-decoration: none;
+  transition: 0.3s;
+}
+footer .btn:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 959px) {
+  .wrap {
+    padding: 0 20px;
+  }
+
+  h2 {
+    font-size: 6em;
+    margin-top: 40px;
+  }
+
+  .box .image {
+    min-width: 300px;
+  }
+  .box ul {
+    min-height: 410px;
+  }
+  .box li:first-child {
+    margin-left: 20px;
+  }
+
+  .product1 .bg {
+    transform: scale(0.8) translateY(-70px);
+  }
+
+  .product2 .bg {
+    transform: scale(0.8) translateY(-70px) rotate(53deg);
+  }
+  .product2 .bg2 {
+    transform: scale(0.8) translate(-250px, 20px);
+  }
+
+  .product3 .bg {
+    transform: scale(0.8) translate(140px, -170px) rotate(53deg);
+  }
+  .product3 .bg2 {
+    transform: scale(0.8) translate(-380px, -60px);
+  }
+
+  .about .flex {
+    justify-content: space-evenly;
+  }
+  .about .skils {
+    width: 30%;
+    padding: 0 5%;
+  }
+  .about .about-text {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 559px) {
+  .flex {
+    flex-direction: column;
+  }
+
+  header {
+    padding: 8px 0;
+    font-size: 14px;
+  }
+
+  .mainvisual p {
+    font-size: 2em;
+    padding-left: 8px;
+  }
+
+  h2 {
+    font-size: 2em;
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .box {
+    margin-top: 20px;
+  }
+  .box .no {
+    width: 30%;
+  }
+  .box li {
+    width: 100%;
+  }
+  .box li:first-child {
+    margin-left: 0;
+  }
+
+  .title {
+    margin-bottom: 10px;
+    position: relative;
+    margin-bottom: 28px;
+  }
+  .title::after {
+    content: "";
+    background: #969595;
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+    position: absolute;
+    bottom: -8px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  .description {
+    padding: 0 20px;
+    font-size: 0.95em;
+  }
+
+  .product1 .image {
+    margin-left: 0;
+  }
+  .product1 .bg {
+    transform: scale(0.7) translate(164px, 190px);
+  }
+
+  .product2 .flex {
+    flex-direction: column-reverse;
+  }
+  .product2 .image {
+    margin-top: 20px;
+    padding: 40px 0;
+  }
+  .product2 .bg {
+    transform: scale(0.7) translate(-202px, 203px) rotate(63deg);
+  }
+  .product2 .bg2 {
+    transform: scale(0.7) translate(-500px, 156px);
+  }
+
+  .product3 {
+    margin-bottom: 40px;
+  }
+  .product3 .image img {
+    padding: 14px;
+  }
+  .product3 .link {
+    margin-top: 28px;
+    display: inline-block;
+  }
+  .product3 .bg {
+    transform: scale(0.6) translate(406px, 422px) rotate(53deg);
+  }
+  .product3 .bg2 {
+    transform: scale(0.8) translate(-63px, 77px);
+  }
+
+  .about {
+    padding: 10px 10px 40px 10px;
+  }
+  .about ul.flex {
+    flex-direction: column-reverse;
+  }
+  .about .skils {
+    width: 100%;
+    margin-top: 40px;
+    border-right: none;
+  }
+  .about .about-text {
+    width: 100%;
+    padding: 10%;
+  }
+
+  footer .description {
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+}/*# sourceMappingURL=style.css.map */
