@@ -33,10 +33,6 @@ a:hover {
   margin-bottom: 40px;
 }
 
-.link {
-  display: inline;
-}
-
 .description {
   margin-bottom: 10px;
   line-height: 1.6;
@@ -180,20 +176,6 @@ h2 {
   max-width: 400px;
 }
 
-.product3 .title {
-  margin-bottom: 0;
-  text-align: center;
-}
-.product3 a {
-  display: block;
-  font-size: 0.8em;
-  text-align: center;
-  margin: 8px 0 40px 0;
-}
-.product3 a img {
-  width: 14px;
-  margin-left: 10px;
-}
 .product3 .bg {
   width: 1000px;
   height: 800px;
@@ -217,6 +199,18 @@ h2 {
   top: 81px;
   right: -112px;
   z-index: -1;
+}
+.product3 .link {
+  font-size: 0.9em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+  line-height: 1;
+}
+.product3 .link .icon {
+  width: 16px;
+  margin-left: 10px;
 }
 
 .product1 .image img {
