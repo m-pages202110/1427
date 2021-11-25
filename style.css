@@ -259,6 +259,20 @@ h2 {
   z-index: -1;
 }
 
+.product4 {
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.product4 .no-img {
+  width: 20%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.product4 .slider {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 .about {
   font-size: 0.8em;
   background-color: #EFEBEA;
@@ -480,6 +494,10 @@ footer .btn:hover {
   }
   .product3 .bg2 {
     transform: scale(0.8) translate(-63px, 77px);
+  }
+
+  .product4 .no-img {
+    width: 50%;
   }
 
   .about {
