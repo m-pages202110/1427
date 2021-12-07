@@ -4,6 +4,7 @@
     position: fixed;
     bottom: 20%;
     right: 10px;
+  transition: 0.4s;
 }
 .floating-banner:hover {
   opacity:0.8;
