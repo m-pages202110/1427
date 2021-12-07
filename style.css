@@ -10,6 +10,7 @@
 }
   .floating-banner img {
     border-radius: 50%;
+    transform: scale(0.8);
 }
 .floating-banner:hover {
   opacity:0.8;
