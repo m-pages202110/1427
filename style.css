@@ -2,10 +2,10 @@
   width: 200px;
     height: 200px;
     position: fixed;
-    bottom: 50%;
+    bottom: 20%;
     right: 10px;
     border: solid 1px #333;
-    padding: 35px;
+    padding: 40px;
     border-radius: 50%;
 }
   
