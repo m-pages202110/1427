@@ -8,7 +8,12 @@
     padding: 40px;
     border-radius: 50%;
 }
-  
+  .floating-banner img {
+    border-radius: 50%;
+}
+.floating-banner:hover {
+  opacity:0.8;
+}
 
 html {
   font-size: 100%;
