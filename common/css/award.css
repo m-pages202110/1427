@@ -98,44 +98,7 @@ a:active {
   text-decoration: none;
 }
 
-h1 {
-  text-align: center;
-  font-size: 6vw;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin: 30px 0;
-}
-
-p {
-  margin: 30px 0;
-  word-wrap: break-word;
-}
-
 footer {
   display: grid;
   place-items: center;
-}
-.sp {
-  display: none;
-}
-.pc {
-  display: block;
-}
-
-.gallery-sp {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-between;
-}
-
-.gallery-sp li {
-  width: 48%;
-}
-@media screen and (max-width: 768px){
-  .sp {
-    display: block;
-  }
-  .pc {
-    display: none;
-  }
 }
