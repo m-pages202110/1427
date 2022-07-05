@@ -1,0 +1,68 @@
+@charset "UTF-8";
+.innr {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+  /*画像の下にできる余白を削除*/
+}
+#imgMain,.thum {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding-bottom: 4%;
+}
+
+ul#gallerysp {
+  height: auto;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+ul#gallerysp li {
+  width: 32%;
+margin-bottom: 2%;
+}
+
+/* ul#gallery li.end {
+  width: 100px;
+  padding: 8px 0px 0px 0px;
+  height: auto;
+} */
+
+ul#gallerysp li img {
+  width: 100%;
+}
+
+#page {
+  position: relative;
+}
+
+
+.sp {
+  display: none;
+}
+@media screen and (max-width: 768px){
+  #imgMain {
+    position: fixed;
+    top: 0;
+max-width: 100%;
+    background-color: antiquewhite;
+  }
+
+  .thum {
+    max-width: 100%;
+    padding: 4% 2%;
+  }
+  .pc {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+}
