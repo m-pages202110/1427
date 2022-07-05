@@ -114,4 +114,28 @@ p {
 footer {
   display: grid;
   place-items: center;
-}/*# sourceMappingURL=syasin.css.map */
+}
+.sp {
+  display: none;
+}
+.pc {
+  display: block;
+}
+
+.gallery-sp {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.gallery-sp li {
+  width: 48%;
+}
+@media screen and (max-width: 768px){
+  .sp {
+    display: block;
+  }
+  .pc {
+    display: none;
+  }
+}
